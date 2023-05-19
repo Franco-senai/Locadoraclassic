@@ -1,0 +1,16 @@
+C:\Users\ALUNO\Desktop\Dftech\LocadoraClassic\LocadoraClassic.View\bin\Debug\LocadoraClassic.View.exe.config
+C:\Users\ALUNO\Desktop\Dftech\LocadoraClassic\LocadoraClassic.View\bin\Debug\LocadoraClassic.View.exe
+C:\Users\ALUNO\Desktop\Dftech\LocadoraClassic\LocadoraClassic.View\bin\Debug\LocadoraClassic.View.pdb
+C:\Users\ALUNO\Desktop\Dftech\LocadoraClassic\LocadoraClassic.View\obj\Debug\LocadoraClassic.View.csproj.AssemblyReference.cache
+C:\Users\ALUNO\Desktop\Dftech\LocadoraClassic\LocadoraClassic.View\obj\Debug\LocadoraClassic.View.csproj.SuggestedBindingRedirects.cache
+C:\Users\ALUNO\Desktop\Dftech\LocadoraClassic\LocadoraClassic.View\obj\Debug\LocadoraClassic.View.Properties.Resources.resources
+C:\Users\ALUNO\Desktop\Dftech\LocadoraClassic\LocadoraClassic.View\obj\Debug\LocadoraClassic.View.csproj.GenerateResource.cache
+C:\Users\ALUNO\Desktop\Dftech\LocadoraClassic\LocadoraClassic.View\obj\Debug\LocadoraClassic.View.csproj.CoreCompileInputs.cache
+C:\Users\ALUNO\Desktop\Dftech\LocadoraClassic\LocadoraClassic.View\obj\Debug\LocadoraClassic.View.exe
+C:\Users\ALUNO\Desktop\Dftech\LocadoraClassic\LocadoraClassic.View\obj\Debug\LocadoraClassic.View.pdb
+C:\Users\ALUNO\Desktop\Dftech\LocadoraClassic\LocadoraClassic.View\obj\Debug\LocadoraClassic.View.frmMenu.resources
+C:\Users\ALUNO\Desktop\Dftech\LocadoraClassic\LocadoraClassic.View\obj\Debug\LocadoraClassic.View.FrnTelaGenero.resources
+C:\Users\ALUNO\Desktop\Dftech\LocadoraClassic\LocadoraClassic.View\obj\Debug\LocadoraClassic.View.FrnCategoria.resources
+C:\Users\ALUNO\Desktop\Dftech\LocadoraClassic\LocadoraClassic.View\obj\Debug\LocadoraClassic.View.FrnTelaCliente.resources
+C:\Users\ALUNO\Desktop\Dftech\LocadoraClassic\LocadoraClassic.View\obj\Debug\LocadoraClassic.View.FrnTelaFilme.resources
+C:\Users\ALUNO\Desktop\Dftech\LocadoraClassic\LocadoraClassic.View\obj\Debug\LocadoraClassic.View.FrnLocacao.resources
