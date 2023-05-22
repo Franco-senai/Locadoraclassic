@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using LocadoraClassic.VO;
+using LocadoraClassic.DAL;
 
 namespace LocadoraClassic.View
 {
@@ -29,9 +31,31 @@ namespace LocadoraClassic.View
 
         private void button1_Click(object sender, EventArgs e)
         {
-            FrnCategoria frnCategoria = new FrnCategoria();
-            frnCategoria.Show();
-            Close();
+            //objeto VO
+            Genero genero = new Genero();
+            //objeto DAL
+            GeneroDAL generodal = new GeneroDAL();
+            //Pegar o valor da caixinha e colocar na propriedade
+            genero.Nome = textgenero.Text;
+
+            //Inserir no bando de dados
+            generodal.InserirGenero(genero);
+
+            //LImpar caixa
+            textgenero.Text = "";
+            MessageBox.Show("Dados inseridos com sucesso!");
+        }
+
+        private void FrnTelaGenero_Load(object sender, EventArgs e)
+        {
+            
+            
+
+        }
+
+        private void textgenero_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

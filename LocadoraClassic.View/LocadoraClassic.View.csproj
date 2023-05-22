@@ -128,5 +128,15 @@
   <ItemGroup>
     <None Include="Resources\banner.JPG.png" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LocadoraClassic.DAL\LocadoraClassic.DAL.csproj">
+      <Project>{90ad3284-9d9c-4b04-b833-8d96af863732}</Project>
+      <Name>LocadoraClassic.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LocadoraClassic.VO\LocadoraClassic.VO.csproj">
+      <Project>{01a875c6-7c17-4a0a-b07b-0927071df591}</Project>
+      <Name>LocadoraClassic.VO</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -31,8 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrnTelaGenero));
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.textgenero = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // textBox1
@@ -56,14 +56,6 @@
             this.label1.Text = "Nome";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(216, 161);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(399, 28);
-            this.textBox2.TabIndex = 1;
-            // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(442, 209);
@@ -74,17 +66,26 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // textgenero
+            // 
+            this.textgenero.Location = new System.Drawing.Point(185, 161);
+            this.textgenero.Name = "textgenero";
+            this.textgenero.Size = new System.Drawing.Size(468, 20);
+            this.textgenero.TabIndex = 3;
+            this.textgenero.TextChanged += new System.EventHandler(this.textgenero_TextChanged);
+            // 
             // FrnTelaGenero
             // 
             this.ClientSize = new System.Drawing.Size(704, 441);
+            this.Controls.Add(this.textgenero);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximumSize = new System.Drawing.Size(720, 480);
             this.MinimumSize = new System.Drawing.Size(720, 480);
             this.Name = "FrnTelaGenero";
             this.Text = "Cadastro de Genêro";
+            this.Load += new System.EventHandler(this.FrnTelaGenero_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -95,7 +96,7 @@
         private System.Windows.Forms.Label FrmTelaGenero;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox textgenero;
     }
 }

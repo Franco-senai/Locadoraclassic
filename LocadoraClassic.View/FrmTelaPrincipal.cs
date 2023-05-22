@@ -41,27 +41,38 @@ namespace LocadoraClassic.View
         {   
             // chamndo a tela Genero na tela Principal
             FrnTelaGenero frnTelaGenero = new FrnTelaGenero();
+            frnTelaGenero.MdiParent = this;
             frnTelaGenero.Show();
         }
 
         private void clienteToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new FrnTelaCliente().Show();
+           
+            FrnTelaCliente frnTelaCliente = new FrnTelaCliente();
+            frnTelaCliente.MdiParent = this;
+            frnTelaCliente.Show();
         }
 
         private void categoriaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new FrnCategoria().Show();
+            
+            FrnCategoria frnCategoria = new FrnCategoria();
+            frnCategoria.MdiParent = this;
+            frnCategoria.Show();
         }
 
         private void filmeToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new FrnTelaFilme().Show();
+            
+            FrnTelaFilme frnTelaFilme = new FrnTelaFilme();
+            frnTelaFilme.MdiParent = this;
+            frnTelaFilme.Show();
         }
 
         private void realizarLocaçãoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new FrnLocacao().Show();  
+            new FrnLocacao().Show();
+            
         }
     }
 }

@@ -34,17 +34,17 @@
             this.genêroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.categoriaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.filmeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.clienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.locaçãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.realizarLocaçãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.relatorioDiarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.relatoriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pendentesToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.faturamentoDoDiaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.faturamenteDoMêsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gráficosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.graficoDePizzaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gráficoAtrasadosPorMêsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.clienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pendentesToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -96,6 +96,13 @@
             this.filmeToolStripMenuItem.Text = "Filme";
             this.filmeToolStripMenuItem.Click += new System.EventHandler(this.filmeToolStripMenuItem_Click);
             // 
+            // clienteToolStripMenuItem
+            // 
+            this.clienteToolStripMenuItem.Name = "clienteToolStripMenuItem";
+            this.clienteToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.clienteToolStripMenuItem.Text = "Cliente";
+            this.clienteToolStripMenuItem.Click += new System.EventHandler(this.clienteToolStripMenuItem_Click);
+            // 
             // locaçãoToolStripMenuItem
             // 
             this.locaçãoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -109,14 +116,14 @@
             // realizarLocaçãoToolStripMenuItem
             // 
             this.realizarLocaçãoToolStripMenuItem.Name = "realizarLocaçãoToolStripMenuItem";
-            this.realizarLocaçãoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.realizarLocaçãoToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
             this.realizarLocaçãoToolStripMenuItem.Text = "Realizar locação";
             this.realizarLocaçãoToolStripMenuItem.Click += new System.EventHandler(this.realizarLocaçãoToolStripMenuItem_Click);
             // 
             // relatorioDiarioToolStripMenuItem
             // 
             this.relatorioDiarioToolStripMenuItem.Name = "relatorioDiarioToolStripMenuItem";
-            this.relatorioDiarioToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.relatorioDiarioToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
             this.relatorioDiarioToolStripMenuItem.Text = "Relatorio Diário";
             // 
             // relatoriosToolStripMenuItem
@@ -129,6 +136,12 @@
             this.relatoriosToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
             this.relatoriosToolStripMenuItem.Text = "Relatorios";
             this.relatoriosToolStripMenuItem.Click += new System.EventHandler(this.relatoriosToolStripMenuItem_Click);
+            // 
+            // pendentesToolStripMenuItem1
+            // 
+            this.pendentesToolStripMenuItem1.Name = "pendentesToolStripMenuItem1";
+            this.pendentesToolStripMenuItem1.Size = new System.Drawing.Size(183, 22);
+            this.pendentesToolStripMenuItem1.Text = "Pendentes";
             // 
             // faturamentoDoDiaToolStripMenuItem
             // 
@@ -166,19 +179,6 @@
             this.gráficoAtrasadosPorMêsToolStripMenuItem.Size = new System.Drawing.Size(289, 22);
             this.gráficoAtrasadosPorMêsToolStripMenuItem.Text = "Gráfico Barra Atrasados Por Mês";
             // 
-            // clienteToolStripMenuItem
-            // 
-            this.clienteToolStripMenuItem.Name = "clienteToolStripMenuItem";
-            this.clienteToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.clienteToolStripMenuItem.Text = "Cliente";
-            this.clienteToolStripMenuItem.Click += new System.EventHandler(this.clienteToolStripMenuItem_Click);
-            // 
-            // pendentesToolStripMenuItem1
-            // 
-            this.pendentesToolStripMenuItem1.Name = "pendentesToolStripMenuItem1";
-            this.pendentesToolStripMenuItem1.Size = new System.Drawing.Size(183, 22);
-            this.pendentesToolStripMenuItem1.Text = "Pendentes";
-            // 
             // FrmMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 26F);
@@ -189,6 +189,7 @@
             this.Font = new System.Drawing.Font("Forte", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(6);
             this.MaximizeBox = false;
