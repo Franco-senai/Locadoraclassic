@@ -18,7 +18,7 @@ namespace LocadoraClassic.VO
         public string Nome { get; set; }
         
         public string Tipo { get; set; }
-
+       
         public Genero() 
         
         { 

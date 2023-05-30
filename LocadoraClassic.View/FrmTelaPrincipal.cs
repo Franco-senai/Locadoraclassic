@@ -41,7 +41,7 @@ namespace LocadoraClassic.View
         {   
             // chamndo a tela Genero na tela Principal
             FrnTelaGenero frnTelaGenero = new FrnTelaGenero();
-            frnTelaGenero.MdiParent = this;
+            //frnTelaGenero.MdiParent = this;
             frnTelaGenero.Show();
         }
 
@@ -49,7 +49,7 @@ namespace LocadoraClassic.View
         {
            
             FrnTelaCliente frnTelaCliente = new FrnTelaCliente();
-            frnTelaCliente.MdiParent = this;
+            //frnTelaCliente.MdiParent = this;
             frnTelaCliente.Show();
         }
 
@@ -57,7 +57,7 @@ namespace LocadoraClassic.View
         {
             
             FrnCategoria frnCategoria = new FrnCategoria();
-            frnCategoria.MdiParent = this;
+            //frnCategoria.MdiParent = this;
             frnCategoria.Show();
         }
 
@@ -65,7 +65,7 @@ namespace LocadoraClassic.View
         {
             
             FrnTelaFilme frnTelaFilme = new FrnTelaFilme();
-            frnTelaFilme.MdiParent = this;
+            //frnTelaFilme.MdiParent = this;
             frnTelaFilme.Show();
         }
 

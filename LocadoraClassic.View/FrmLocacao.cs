@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LocadoraClassic.DAL;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,11 @@ namespace LocadoraClassic.View
         public FrnLocacao()
         {
             InitializeComponent();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+           
         }
     }
 }

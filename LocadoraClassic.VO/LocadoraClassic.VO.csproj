@@ -41,7 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Genero.cs" />
+    <Compile Include="Categoria.VO.cs" />
+    <Compile Include="Cliente.VO.cs" />
+    <Compile Include="Genero.VO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
